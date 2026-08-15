@@ -1,0 +1,1 @@
+import{a as e}from"./ClzmQM-N.js";var t=()=>{let{baseURL:t,cdnURL:n}=e().app;return e=>e?/^(?:[a-z]+:)?\/\//i.test(e)||e.startsWith(`data:`)||e.startsWith(`blob:`)?e:`${(n||t||`/`).replace(/\/+$/,``)}/${e.replace(/^\/+/,``)}`:``};export{t};
